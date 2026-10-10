@@ -1,477 +1,696 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Priyadharshani V. | UI/UX Designer</title>
+    <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <!-- Google Font -->    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
 
-    <a href="#home" class="logo">
-      PV<span>.</span>
-    </a>
+<!-- ================= NAVBAR ================= -->
 
-    <nav id="navMenu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-    </nav>
+<nav class="navbar navbar-expand-lg">
 
-    <div class="nav-actions">
-      <button id="themeBtn">🌙</button>
-      <button id="menuBtn" class="menu-btn">☰</button>
-    </div>
+    <div class="container">
 
-  </header>
-
-
-  <!-- HOME -->
-  <section id="home" class="hero">
-
-    <div class="hero-content reveal">
-
-      <p class="eyebrow">HELLO, I'M</p>
-
-      <h1>
-        Priyadharshani <span>V.</span>
-      </h1>
-
-      <h2>
-        UI/UX Designer
-        <span>&</span>
-        Frontend Developer
-      </h2>
-
-      <p class="hero-text">
-        I design clean, intuitive interfaces and transform ideas
-        into responsive web experiences.
-      </p>
-
-      <div class="hero-buttons">
-
-        <a href="#projects" class="btn primary">
-          View My Work →
+        <a class="navbar-brand" href="#home">
+            Portfolio<span>.</span>
         </a>
 
-        <a href="#experience" class="btn secondary">
-          View Journey
-        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
 
-      </div>
+            <span class="navbar-toggler-icon"></span>
 
-      <div class="socials">
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="mailto:yourmail@gmail.com">Email</a>
-      </div>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
 
     </div>
 
+</nav>
 
-    <!-- PROFESSIONAL DESIGNER / DEVELOPER VISUAL -->
-    <div class="hero-visual reveal">
 
-      <div class="profile-circle">
 
-        <div class="circle-glow"></div>
+<!-- ================= HOME ================= -->
 
-        <div class="profile-content">
+<section id="home">
 
-          <div class="profile-icon">
-            &lt;/&gt;
-          </div>
+    <div class="container">
 
-          <h3>UI/UX</h3>
+        <div class="row align-items-center hero-row">
 
-          <p>
-            DESIGNER
-          </p>
+            <!-- TEXT -->
 
-          <div class="profile-divider"></div>
+            <div class="col-lg-7">
 
-          <h4>FRONTEND</h4>
+                <div class="hero-content reveal">
 
-          <span>DEVELOPER</span>
+                    <span class="hero-small-text">
+                        HELLO, I'M
+                    </span>
+
+                    <h1>
+                        Priyadharshani <span>V</span>
+                    </h1>
+
+                    <h3>
+                        UI/UX Designer & Frontend Developer
+                    </h3>
+
+                    <p>
+                        I create clean, intuitive and responsive digital
+                        experiences with a focus on thoughtful design
+                        and user-friendly interfaces.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn-primary-custom">
+                            View My Work
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                        <a href="#education" class="btn-outline-custom">
+                            My Journey
+                            <i class="bi bi-journal-bookmark-fill"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- IMAGE -->
+
+            <div class="col-lg-5">
+
+                <div class="hero-image reveal">
+
+                    <div class="image-glow"></div>
+
+                    <img
+                        src="./WhatsApp Image 2026-09-11 at 12.51.40 PM (1).jpeg"
+                        alt="Priyadharshani V">
+
+                </div>
+
+            </div>
 
         </div>
-
-        <div class="orbit orbit-one">
-          ✦
-        </div>
-
-        <div class="orbit orbit-two">
-          &lt;/&gt;
-        </div>
-
-      </div>
-
-  </section>
-
-
-  <!-- ABOUT -->
-  <section id="about" class="section about">
-
-    <div class="section-heading reveal">
-
-      <p>GET TO KNOW ME</p>
-
-      <h2>
-        About <span>Me</span>
-      </h2>
 
     </div>
 
+</section>
 
-    <div class="about-grid">
 
-      <div class="about-image reveal">
 
-        <div>
-          <span>01</span>
+<!-- ================= ABOUT ================= -->
 
-          <h3>Design.</h3>
-          <h3>Develop.</h3>
-          <h3>Deliver.</h3>
+<section id="about">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <span>GET TO KNOW ME</span>
+
+            <h2>About Me</h2>
+
+            <p>A little about my background and interests</p>
+
         </div>
 
-      </div>
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-5">
+
+                <div class="about-image reveal">
+
+                    <img
+                        src="./WhatsApp Image 2026-09-11 at 12.51.40 PM (1).jpeg"
+                        alt="Priyadharshani V">
+
+                </div>
+
+            </div>
 
 
-      <div class="about-content reveal">
+            <div class="col-lg-7">
 
-        <h3>
-          I love turning ideas into meaningful digital experiences.
-        </h3>
+                <div class="about-content reveal">
+
+                    <h3>
+                        Designing ideas into meaningful experiences.
+                    </h3>
+
+                    <p>
+                        I am a Computer Science graduate with an interest
+                        in UI/UX design and frontend development.
+                    </p>
+
+                    <p>
+                        I enjoy creating clean and responsive interfaces
+                        that are simple to understand and comfortable
+                        for users to interact with.
+                    </p>
+
+                    <p>
+                        I am continuously improving my design and
+                        development skills by learning new technologies
+                        and working on practical projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <span>WHAT I WORK WITH</span>
+
+            <h2>My Skills</h2>
+
+            <p>Technologies and tools I am familiar with</p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- HTML -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-filetype-html"></i>
+
+                    <h5>HTML</h5>
+
+                    <p>Building structured web pages</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CSS -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-filetype-css"></i>
+
+                    <h5>CSS</h5>
+
+                    <p>Creating responsive and modern layouts</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- JavaScript -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-filetype-js"></i>
+
+                    <h5>JavaScript</h5>
+
+                    <p>Adding interactive functionality</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Python -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-code-slash"></i>
+
+                    <h5>Python</h5>
+
+                    <p>Programming and application development</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MySQL -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-database"></i>
+
+                    <h5>MySQL</h5>
+
+                    <p>Working with relational databases</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- UI UX -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-palette"></i>
+
+                    <h5>UI/UX Design</h5>
+
+                    <p>Creating user-focused interfaces</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Figma -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-vector-pen"></i>
+
+                    <h5>Figma/Adobe Xd</h5>
+
+                    <p>Designing interfaces and prototypes</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Java -->
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="skill-card reveal">
+
+                    <i class="bi bi-braces"></i>
+
+                    <h5>Java</h5>
+
+                    <span class="learning-badge">
+                        Currently Learning
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <span>MY ACADEMIC JOURNEY</span>
+
+            <h2>Education</h2>
+
+            <p>My educational background</p>
+
+        </div>
+
+
+        <div class="education-list">
+
+
+            <!-- DEGREE -->
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+
+                    <i class="bi bi-mortarboard-fill"></i>
+
+                </div>
+
+                <div>
+
+                    <span class="education-year">
+                        Bachelor's Degree
+                    </span>
+
+                    <h4>B.Sc Computer Science</h4>
+
+                    <h6>
+                        Shri Shankarlal Sundarbai Shasun Jain College for Women
+                    </h6>
+
+                    <p>
+                        Completed Bachelor's degree in Computer Science.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- HSC -->
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+
+                    <i class="bi bi-book-fill"></i>
+
+                </div>
+
+                <div>
+
+                    <span class="education-year">
+                        Higher Secondary
+                    </span>
+
+                    <h4>HSC</h4>
+
+                    <h6>
+                        Shri Natesan Vidyasala Matriculation Higher Secondary School
+                    </h6>
+
+                    <p>
+                        Mathematics with Computer Science.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SSLC -->
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+
+                    <i class="bi bi-journal-bookmark-fill"></i>
+
+                </div>
+
+                <div>
+
+                    <span class="education-year">
+                        Secondary School
+                    </span>
+
+                    <h4>SSLC</h4>
+
+                    <h6>
+                        Shri Natesan Vidyasala Matriculation Higher Secondary School
+                    </h6>
+
+                    <p>
+                        Completed secondary school education.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <span>MY WORK</span>
+
+            <h2>Projects</h2>
+
+            <p>Selected design and development projects</p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            <div class="row justify-content-center">
+
+    <!-- FIRST PROJECT -->
+    <div class="col-md-8 col-lg-6 mb-4">
+
+        <div class="project-card reveal">
+
+            <div class="project-icon">
+                <i class="bi bi-window-stack"></i>
+            </div>
+
+            <h4>Pet Care Website</h4>
+
+            <p>
+                A responsive pet-care platform for vaccinations,
+                food schedules, medicine reminders and health records.
+            </p>
+
+            <a href="https://priyadharshanivijayakumar-23.github.io/Pet-Care-Website/"
+               class="project-link">
+                View Project
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- SECOND PROJECT -->
+    <div class="col-md-8 col-lg-6 mb-4">
+
+        <div class="project-card reveal">
+
+            <div class="project-icon">
+                <i class="bi bi-palette"></i>
+            </div>
+
+            <h4>PetCare UI/UX Design</h4>
+
+            <p>
+                A pet-care concept designed in Figma
+                to help pet owners manage health records
+                through a simple user-friendly interface.
+            </p>
+
+            <a href="./petcare_case_study/case-study.html" class="project-link">
+                View Case Study
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+
+            <a href="https://www.figma.com/proto/tTKEhzRmpx5w0A2jSrDIkc/Untitled?node-id=290-623&viewport=588%2C-231%2C0.1&t=Q5S3at9qfOJg58Hr-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=290%3A623&page-id=265%3A1112"
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                View Prototype
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <span>GET IN TOUCH</span>
+
+            <h2>Contact Me</h2>
+
+            <p>Let's connect and create something meaningful.</p>
+
+        </div>
+
+
+        <div class="contact-box reveal">
+
+            <i class="bi bi-envelope-paper contact-icon"></i>
+
+            <h3>Have a project in mind?</h3>
+
+            <p>
+                Feel free to reach out for opportunities,
+                collaborations or simply to connect.
+            </p>
+
+
+            <div class="contact-info">
+
+                <a href="mailto:dharshviji23@gmail.com">
+                    <i class="bi bi-envelope"></i>
+                    Mail me
+                </a>
+
+                <a href="https://github.com/PriyadharshaniVijayakumar-23" target="_blank">
+                    <i class="bi bi-github"></i>
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
 
         <p>
-          I'm a B.Sc Computer Science graduate passionate about
-          UI/UX design and frontend development.
+            © 2026 Priyadharshani V. All Rights Reserved.
         </p>
 
-        <p>
-          I enjoy creating interfaces that are visually clean,
-          easy to use and responsive across different devices.
-        </p>
-
-        <div class="about-info">
-
-          <div>
-            <b>B.Sc CS</b>
-            <small>Computer Science</small>
-          </div>
-
-          <div>
-            <b>UI/UX</b>
-            <small>Figma & Adobe XD</small>
-          </div>
-
-          <div>
-            <b>Frontend</b>
-            <small>HTML, CSS, JS</small>
-          </div>
-
-        </div>
-
-      </div>
-
     </div>
 
-  </section>
+</footer>
 
 
-  <!-- SKILLS -->
-  <section id="skills" class="section">
 
-    <div class="section-heading reveal">
+<!-- Bootstrap JS -->
 
-      <p>WHAT I WORK WITH</p>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
 
-      <h2>
-        My <span>Skills</span>
-      </h2>
 
-    </div>
+<!-- Custom JS -->
 
+<script src="script.js"></script>
 
-    <div class="skills-grid">
-
-      <div class="skill-card reveal">
-
-        <div class="skill-icon">
-          ✦
-        </div>
-
-        <h3>UI/UX Design</h3>
-
-        <p>
-          Figma, Adobe XD, Wireframing,
-          Prototyping, UI Design & Responsive Design.
-        </p>
-
-      </div>
-
-
-      <div class="skill-card reveal">
-
-        <div class="skill-icon">
-          &lt;/&gt;
-        </div>
-
-        <h3>Frontend</h3>
-
-        <p>
-          HTML5, CSS3, JavaScript and
-          responsive web development.
-        </p>
-
-      </div>
-
-
-      <div class="skill-card reveal">
-
-        <div class="skill-icon">
-          ⌘
-        </div>
-
-        <h3>Currently Learning</h3>
-
-        <p>
-          Full Stack Development with
-          Java and Python.
-        </p>
-
-      </div>
-
-
-      <div class="skill-card reveal">
-
-        <div class="skill-icon">
-          ▥
-        </div>
-
-        <h3>Data & Tools</h3>
-
-        <p>
-          Microsoft Word and Excel.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section projects">
-
-    <div class="section-heading reveal">
-
-      <p>MY RECENT WORK</p>
-
-      <h2>
-        Featured <span>Project</span>
-      </h2>
-
-    </div>
-
-
-    <div class="project-grid">
-
-      <article class="project-card reveal">
-
-        <div class="project-image pet">
-
-          <span>01</span>
-
-          🐾
-
-        </div>
-
-
-        <div class="project-content">
-
-          <div class="tags">
-
-            <span>UI/UX</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-
-          </div>
-
-          <h3>
-            Pet Care Website
-          </h3>
-
-          <p>
-            A responsive pet-care platform for vaccinations,
-            food schedules, medicine reminders and health records.
-          </p>
-
-          <button
-            class="project-btn"
-            onclick="openProject('pet')">
-
-            View Project →
-
-          </button>
-
-        </div>
-
-      </article>
-
-    </div>
-
-  </section>
-
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section">
-
-    <div class="section-heading reveal">
-
-      <p>MY JOURNEY</p>
-
-      <h2>
-        Experience & <span>Education</span>
-      </h2>
-
-    </div>
-
-
-    <div class="timeline">
-
-      <div class="timeline-item reveal">
-
-        <div class="dot"></div>
-
-        <span>
-          April 18 – May 2
-        </span>
-
-        <h3>
-          Digital Marketing Intern
-        </h3>
-
-        <h4>
-          Greentree Softech Solutions Pvt. Ltd.
-        </h4>
-
-        <p>
-          Gained practical exposure to digital marketing
-          and a professional work environment.
-        </p>
-
-      </div>
-
-
-      <div class="timeline-item reveal">
-
-        <div class="dot"></div>
-
-        <span>
-          B.Sc Computer Science
-        </span>
-
-        <h3>
-          Computer Science Graduate
-        </h3>
-
-        <h4>
-          Shri Shankarlal Sundarbai Shasun Jain College for Women
-        </h4>
-
-        <p>
-          Built a foundation in programming, databases,
-          software development and computer science concepts.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- RESUME -->
-  <section class="resume-section reveal">
-
-    <div>
-
-      <p>LOOKING FOR MY RESUME?</p>
-
-      <h2>
-        Let's build something
-        <span>great.</span>
-      </h2>
-
-    </div>
-
-    <a href="#" class="btn resume-btn">
-      Download Resume ↓
-    </a>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    <div class="footer-logo">
-      PV<span>.</span>
-    </div>
-
-    <p>
-      Designing experiences. Building interfaces.
-    </p>
-
-    <p>
-      © 2026 Priyadharshani V. All rights reserved.
-    </p>
-
-  </footer>
-
-
-  <!-- PROJECT MODAL -->
-  <div id="projectModal" class="modal">
-
-    <div class="modal-content">
-
-      <button
-        onclick="closeProject()"
-        class="close">
-
-        ×
-
-      </button>
-
-      <p id="modalNumber"></p>
-
-      <h2 id="modalTitle"></h2>
-
-      <p id="modalDescription"></p>
-
-      <div
-        id="modalTech"
-        class="tags">
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <script src="script.js"></script>
 
 </body>
-          </html>
+
+</html>
